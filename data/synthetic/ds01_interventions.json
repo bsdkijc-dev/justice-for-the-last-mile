@@ -1,0 +1,20 @@
+[
+  {
+    "intervention_id": "JLM-SYN-001",
+    "target_group": "rural_smallholders",
+    "province_code": "52",
+    "delivery_channel": "village_paralegal_desk",
+    "design_status": "DESIGNED",
+    "publication_class": "P5",
+    "data_origin": "synthetic"
+  },
+  {
+    "intervention_id": "JLM-SYN-002",
+    "target_group": "persons_with_disabilities",
+    "province_code": "32",
+    "delivery_channel": "audio_radio_local",
+    "design_status": "DESIGNED",
+    "publication_class": "P5",
+    "data_origin": "synthetic"
+  }
+]

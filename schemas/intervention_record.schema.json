@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LastMileInterventionRecord",
+  "type": "object",
+  "required": [
+    "intervention_id",
+    "target_group",
+    "province_code",
+    "delivery_channel",
+    "design_status",
+    "publication_class",
+    "data_origin"
+  ],
+  "properties": {
+    "intervention_id": {
+      "type": "string"
+    },
+    "target_group": {
+      "type": "string"
+    },
+    "province_code": {
+      "type": "string"
+    },
+    "delivery_channel": {
+      "type": "string",
+      "enum": [
+        "offline_mobile_clinic",
+        "village_paralegal_desk",
+        "audio_radio_local",
+        "accessible_print",
+        "hybrid_digital_assisted"
+      ]
+    },
+    "design_status": {
+      "type": "string",
+      "enum": [
+        "DESIGNED",
+        "PILOT_READY",
+        "PILOTED",
+        "EVALUATED"
+      ]
+    },
+    "publication_class": {
+      "type": "string",
+      "enum": [
+        "P5"
+      ]
+    },
+    "data_origin": {
+      "type": "string",
+      "enum": [
+        "synthetic"
+      ]
+    }
+  }
+}

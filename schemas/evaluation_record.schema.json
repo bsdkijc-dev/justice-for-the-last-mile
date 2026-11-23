@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LastMileEvaluationRecord",
+  "type": "object",
+  "required": [
+    "evaluation_id",
+    "intervention_id",
+    "dimension",
+    "logic_tier",
+    "metric_name",
+    "metric_value",
+    "causal_claim_permitted",
+    "publication_class"
+  ],
+  "properties": {
+    "evaluation_id": {
+      "type": "string"
+    },
+    "intervention_id": {
+      "type": "string"
+    },
+    "dimension": {
+      "type": "string",
+      "enum": [
+        "ACCESS",
+        "UNDERSTANDING",
+        "AFFORDABILITY",
+        "EFFECTIVENESS",
+        "TRUST_AND_ACCOUNTABILITY"
+      ]
+    },
+    "logic_tier": {
+      "type": "string",
+      "enum": [
+        "INPUT",
+        "ACTIVITY",
+        "OUTPUT",
+        "OUTCOME",
+        "IMPACT"
+      ]
+    },
+    "metric_name": {
+      "type": "string"
+    },
+    "metric_value": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "causal_claim_permitted": {
+      "type": "boolean"
+    },
+    "publication_class": {
+      "type": "string",
+      "enum": [
+        "P5"
+      ]
+    }
+  }
+}
