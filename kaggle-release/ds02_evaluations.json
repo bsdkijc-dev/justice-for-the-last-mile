@@ -1,0 +1,22 @@
+[
+  {
+    "evaluation_id": "JLM-EV-SYN-001",
+    "intervention_id": "JLM-SYN-001",
+    "dimension": "ACCESS",
+    "logic_tier": "OUTPUT",
+    "metric_name": "Planned village desk consultations (synthetic)",
+    "metric_value": 25,
+    "causal_claim_permitted": false,
+    "publication_class": "P5"
+  },
+  {
+    "evaluation_id": "JLM-EV-SYN-002",
+    "intervention_id": "JLM-SYN-002",
+    "dimension": "UNDERSTANDING",
+    "logic_tier": "OUTCOME",
+    "metric_name": "Post-audio comprehension gain (synthetic baseline)",
+    "metric_value": null,
+    "causal_claim_permitted": false,
+    "publication_class": "P5"
+  }
+]
